@@ -1,5 +1,7 @@
 function outputResault(input){
   let assistant =typeof(input);
-  return assistant;
-}
+  if(assistant ==='number'|| assistant === 'string'){
+    return assistant;}
+  return undefined;
+}  
 module.exports = outputResault;
