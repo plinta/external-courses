@@ -6,3 +6,4 @@ function showMostNumber(randomArr){
     }
     return randomArr[helper];
     }
+    module.exports = showMostNumber;
